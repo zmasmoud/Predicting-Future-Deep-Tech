@@ -4,8 +4,11 @@ This repository contains the code and supporting files for the Master's Semester
 
 ## 📁 Repository Structure
 .
+
 ├── Approach1.ipynb # Implementation and validation code for Approach 1
+
 ├── Approach2.ipynb # Implementation and validation code for Approach 2
+
 ├── utils.py # Utility functions used in Approach 1
 
 ### 🔍 Overview of Approaches
@@ -23,4 +26,4 @@ This repository contains the code and supporting files for the Master's Semester
 ## 🛠 Requirements
 
 To run the notebooks locally, install the required packages in the requirements file in your Colab environment or in a vritual environment if running in conda for instance. 
-API keys are needed to use the different APIs: HF API, OpenAI API and Exa API
+API keys are needed to use the different APIs: HF API, OpenAI API and Exa API.
