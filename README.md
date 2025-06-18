@@ -9,8 +9,9 @@ This repository contains the code and supporting files for the Master's Semester
 ├── Approach1.ipynb # Implementation and validation code for Approach 1
 ├── Approach2.ipynb # Implementation and validation code for Approach 2
 ├── utils.py # Utility functions used in Approach 1
-├── ground truth investments # contains ground truth investment figures for the 7 pre-selected technologies from 2010 to 2024 (inclusive)
-├── Investments # contains ground truth and forecasted investment figures for the 7 pre-selected technologies from 2015 to 2024 (inclusive) (for ground truth) and from 2015 to 2034 (inclusive) (for the forecasts)
+├── ground truth investments.xlsx # contains ground truth investment figures for the 7 pre-selected technologies from 2010 to 2024 (inclusive)
+├── Investments.xlsx # contains ground truth and forecasted investment figures for the 7 pre-selected technologies from 2015 to 2024 (inclusive) (for ground truth) and from 2015 to 2034 (inclusive) (for the forecasts)
+├── requirements.txt # contains the required libraries to run the code
 └── RAG documents # RAG corpora
     ├── 2019_2020
       ├── CSEM-STR-2019
@@ -60,5 +61,5 @@ This repository contains the code and supporting files for the Master's Semester
 
 ## 🛠 Requirements
 
-To run the notebooks locally, install the required packages in the requirements file in your Colab environment or in a vritual environment if running in conda for instance. 
-API keys are needed to use the different APIs: HF API, OpenAI API and Exa API.
+To run the notebooks locally, install the required packages in the requirements.txt file in your Colab environment or in a vritual environment if running in conda for instance. Some libraries might need to get updated/replaced/added/removed in case dependencies change over time or certain functionalities get deprecated.
+API keys are needed to use the different APIs: HF API, OpenAI API and Exa API. If you would like to follow how our code handles the API keys, store your keys in a .env file following the same nomenclature found in the code. Make sure the file is placed in your current working directory.  
